@@ -14,13 +14,13 @@ char ch = 'a';
 char cH = 'A';
 
 
-while (a <= 'z')
+while (ch <= 'z')
 {
 putchar(ch);
 ch++;
 }
 
-while (A <= 'Z')
+while (cH <= 'Z')
 {
 putchar(cH);
 cH++;
