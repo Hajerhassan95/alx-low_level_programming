@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: program prints alphabet with putchar function
+ * Description: program prints alphabet lower and upper case
  *
  * Return: Always 0 (Success)
 */
