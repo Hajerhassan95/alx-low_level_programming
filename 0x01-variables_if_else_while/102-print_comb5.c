@@ -10,38 +10,24 @@
 
 int main(void)
 {
-int digit1 = 0, digit2, digit3, digit4;
-while (digit1 <= 9)
+int digit1 = 0, digit2;
+while (digit1 <= 99)
 {
-digit2 = 0;
-while (digit2 <= 9)
+digit2 = digit1;
+while (digit2 <= 99)
 {
-digit3 = 0;
-while (digit3 <= 9)
+if (digit2 != digit1)
 {
-digit4 = 0;
-while (digit4 <= 9)
-{
-if (digit1 != digit2 && digit1 != digit3 &&
-digit1 != digit4 &&
-digit2 != digit3 &&
-digit2 != digit4 &&
-digit3 != digit4)
-{
-putchar(digit1 + 48);
-putchar(digit2 + 48);
+putchar{((digit1 / 10) + 48);
+putchar((digit1 % 10)  + 48);
 putchar(' ');
-putchar(digit3 + 48);
-putchar(digit4 + 48);
-if (digit3 + digit4 != 18)
+putchar((digit2 / 10) +  48);
+putchar((digit2 % 10) +  48);
+if (digit1 != 98 || digit2 != 99)
 {
 putchar(',');
 putchar(' ');
 }
-}
-digit4++;
-}
-digit3++;
 }
 digit2++;
 }
