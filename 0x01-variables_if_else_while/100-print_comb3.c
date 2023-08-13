@@ -19,10 +19,10 @@ while (digit2 <= 57)
 putchar(digit2);
 digit2++;
 }
-putchar('\n');
+putchar(',');
+putchar(' ');
 putchar(digit);
 digit++;
 }
-putchar('\n');
 return (0);
 }
