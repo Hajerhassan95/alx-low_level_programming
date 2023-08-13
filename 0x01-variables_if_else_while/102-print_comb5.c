@@ -18,7 +18,7 @@ while (digit2 <= 99)
 {
 if (digit2 != digit1)
 {
-putchar{((digit1 / 10) + 48);
+putchar((digit1 / 10) + 48);
 putchar((digit1 % 10)  + 48);
 putchar(' ');
 putchar((digit2 / 10) +  48);
