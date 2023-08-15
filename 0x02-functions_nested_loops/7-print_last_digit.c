@@ -16,6 +16,6 @@ lastdigit = -1 * (n % 10);
 else
 lastdigit = n % 10;
 
--putchar(lastdigit + '0');
+_putchar(lastdigit + '0');
 return (lastdigit);
 }
