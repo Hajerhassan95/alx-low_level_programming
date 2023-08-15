@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet from a - z
+ * print_alphabet - utilizes on the _putchar function to print
+ *                the alphabet  from a - z
 */
 
 void print_alphabet(void)
-{ 
+{
 int n = 97;
 while (n <= 122)
 {
