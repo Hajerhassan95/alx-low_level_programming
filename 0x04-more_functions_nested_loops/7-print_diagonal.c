@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagnoal - print a dignoal line
+ * print_diagonal - print a dignoal line
  *
  * @n: is the number of time the \ character
- * should be printed
+ *          should be printed
 */
 
 void print_diagonal(int n)
