@@ -11,7 +11,7 @@
 
 void print_diagonal(int n)
 {
-	int slash, space;
+	int i, j;
 
 	if (n <= 0)
 	{
@@ -19,11 +19,15 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (slash = 1; slash <= n; slash++)
+		for (i = 0; i < n; i++)
 		{
-			for (space = 1; space <= slash; space++)
-				_putchar(' ');
-			_putchar(92);
+			for (j = 0; j < n; j++)
+			{
+				if (j == i)
+					_putchar('\\');
+				else if (j < i)
+					_putchar(' ');
+			}
 			_putchar('\n');
 		}
 	}
