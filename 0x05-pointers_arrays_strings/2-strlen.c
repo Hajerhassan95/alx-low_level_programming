@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strlen - function that print the length of
@@ -12,4 +13,5 @@
 int _strlen(char *s)
 {
 strlen(*s);
+return (0);
 }
