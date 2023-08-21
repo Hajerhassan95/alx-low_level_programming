@@ -6,11 +6,14 @@
  * @a: is pointers that point for variable a
  *
  * @b: is pointer that point for variable b
-*/
+ */
 
 void swap_int(int *a, int *b)
 {
-*a = 42;
-*b = 98;
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 
 }
