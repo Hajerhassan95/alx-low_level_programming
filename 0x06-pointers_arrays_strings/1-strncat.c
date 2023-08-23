@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates tow strings
+ * _strncat - concatenates tow strings
  *
  * @dest: input
  *
@@ -12,7 +12,7 @@
  * Return: void
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
